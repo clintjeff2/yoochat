@@ -1,0 +1,15 @@
+{
+  "name": "interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chat:sass": "node-sass sass/main2.scss css/style-chat.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "JEff",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | Yoochat</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="../../img/logo.png" alt="LOGO" class="header__logo">
+        <div class="header__links">
+            <a href="../index.html">Home</a>
+            <a href="../log/log-in.html">login</a>
+            <a href="#">signup</a>
+        </div>
+    </header>
+    <section class="section__signup">
+        <form action="signup.php" method="post" enctype="multipart/form-data" class="signup">
+            <div class="signup__item signup__name">
+                <div>
+                    <span class="name mb-small">Username*</span>
+                    <input type="text" name="S-name" placeholder="Type here..." class="input--name">
+                </div>
+            </div>
+            <div class="signup__item signup__email">
+                <div>
+                    <span class="name mb-small">Email*</span>
+                    <input type="email" name="S-email" placeholder="Type here..." class="input--name">
+                </div>
+            </div>
+            <div class="signup__item signup__password">
+                <div>
+                    <span class="name mb-small">Password*</span>
+                    <input type="password" name="S-password" id="" placeholder="Type here..." class="input--name">
+                </div>
+            </div>
+            <div class="signup__item signup__cpassword">
+                <div>
+                    <span class="name mb-small">Confirm Password*</span>
+                    <input type="password" name="S-cpassword" id="" placeholder="Type here..." class="input--name">
+                </div>
+            </div>
+            <div class="signup__item signup__profile">
+                <div>
+                    <span class="name mb-small">Profile Picture</span>
+                    <input type="file" name="S-profile" id="" placeholder="Choose file" class="input--name">
+                </div>
+            </div>
+            <div class="signup__item signup__btn">
+                <div>
+                    <input type="submit" value="Signup" class="sign-btn" name="signup-submit">
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
